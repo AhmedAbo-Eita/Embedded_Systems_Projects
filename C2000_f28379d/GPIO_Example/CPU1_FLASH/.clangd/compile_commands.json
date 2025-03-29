@@ -1,0 +1,52 @@
+[
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_DefaultISR.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_GlobalVariableDefs.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_Gpio.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_PieCtrl.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_PieVect.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_SysCtrl.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/F2837xD_usDelay.asm"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/GPIO_Example.c"
+   },
+   {
+      "directory" : "D:/RnD/Embedded Software/C2000/GPIO_Example/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/RnD/Embedded Software/C2000/GPIO_Example\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/common/include/\" -I\"C:/ti/C2000Ware_5_04_00_00/device_support/f2837xd/headers/include/\" -I\"D:/RnD/Embedded Software/C2000/GPIO_Example/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/\" -I\"C:/ti/ccs2002/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DDEBUG -D_DUAL_HEADERS -DCPU1",
+      "file"      : "D:/RnD/Embedded Software/C2000/GPIO_Example/device/device.c"
+   }
+]
