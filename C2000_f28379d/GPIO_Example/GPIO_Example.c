@@ -52,10 +52,10 @@
 #include "F28x_Project.h"
 
 //MACROS
-#define OutPin      1
+#define OUTPUT      1
+#define INPUT       0
 #define SetPin      1
 #define ClearPin    1
-
 
 //
 // Main
@@ -68,20 +68,30 @@ void main(void)
     //Initialization GPIO pins 
     EALLOW;
     GpioCtrlRegs.GPAMUX2.bit.GPIO31 =       0;      // Set the pin as GPIO31 pin
+    GpioCtrlRegs.GPAMUX2.bit.GPIO16 =       0;      // Set the pin as GPIO31 pin
     GpioCtrlRegs.GPBGMUX1.bit.GPIO34 =      0;      // Set the pin as GPIO31 pin
+
     // set direction
-    GpioCtrlRegs.GPADIR.bit.GPIO31 =        OutPin; // Set the GPIO31 pin as output pin
-    GpioCtrlRegs.GPBDIR.bit.GPIO34 =        OutPin; // Set the GPIO34 pin as output pin
+    GpioCtrlRegs.GPADIR.bit.GPIO31 =        OUTPUT; // Set the GPIO31 pin as output pin
+    GpioCtrlRegs.GPADIR.bit.GPIO16 =        INPUT; // Set the GPIO16 pin as input pin
+    GpioCtrlRegs.GPBDIR.bit.GPIO34 =        OUTPUT; // Set the GPIO34 pin as output pin
     EDIS;
     
     //Manage the state of GPIO pins 
     //set GPIO31 and GPIO34
-    GpioDataRegs.GPACLEAR.bit.GPIO31 =       ClearPin;
     GpioDataRegs.GPBCLEAR.bit.GPIO34 =       ClearPin;
 
     while(1)
     {
-        
+        // in case of the button is pushed the led will light up
+        if(GpioDataRegs.GPADAT.bit.GPIO16 == 1)
+        {
+            GpioDataRegs.GPACLEAR.bit.GPIO31 = ClearPin; // turn the led on
+        }
+        else
+        {
+            GpioDataRegs.GPASET.bit.GPIO31 = SetPin; // turn the led off
+        }
     }
 }
 

@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GPIO_Example",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "GPIO_Example",
+                "resourceId": "/GPIO_Example"
+            },
+            "launchSettings": {
+                "coresToLoadForProjectLaunch": [
+                    "C28xx_CPU1"
+                ]
+            }
+        }
+    ]
+}
